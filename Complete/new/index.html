@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Internal Home Page - UMN</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style type="text/css">
+body {background-color:ffff11;background-repeat:no-repeat;background-position:top left;background-attachment:fixed;text-align:justify;}
+li {font-family:Cursive;font-size:25px;font-style:italic;font-weight:bold;font-variant:small-caps;color:000000;}
+
+h1{font-family:Cursive;opacity:2;text-align:center;font-variant:small-caps;color:#000;text-shadow: 0 0 5px #000;background-color:99FFFF;}
+#container{border-style:your-border-style;margin: 0 auto; width:35%;background-color:white;opacity:0.5;border-radius: 15px;-moz-border-radius: 15px; -webkit-border-radius: 15px;}
+
+video { 
+    position: fixed;
+    top: 50%;
+preload:"undefined";
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+ background: url('/img.jpg') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}
+stopfade { 
+   opacity: .5;
+}
+h2{font-family:Cursive;opacity:2;text-align:center;font-variant:small-caps;color:#000;text-shadow: 0 0 2px #FFF;background-color:99FFFF;}
+
+</style>
+</head>
+<body>
+
+<video autoplay  poster="/img.jpg" id="bgvid" loop>
+  <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
+<source src="/vid.mp4" type="video/mp4">
+<source src="/vid.webm" type="video/webm">
+</video>
+<h1>UMN Home Page</h1>
+<h2>Network Directory<ahref></h2>
+
+<div id="container">
+
+
+<ul>
+
+<li>Notification
+
+<ul>
+<li><a href="http://192.168.1.7/form.html">Inventory Form</a>
+</ul>
+
+
+<li>Main Server
+
+<ul>
+<li><a href="http://192.168.1.15:8000/ResultsProvider">Result Provider</a>
+<li><a href="http://192.168.1.15:8000/hirrrwebportal">Hirrr Web Portal</a>
+</ul>
+
+<li>Test Server (Old)
+
+<ul>
+<li><a href="http://192.168.1.14:8080/ResultsProvider">Result Provider</a>
+<li><a href="http://192.168.1.14:8080/hirrrwebportal">Hirrr Web Portal</a>
+</ul>
+
+<li>Test Server (New)
+
+<ul>
+<li><a href="http://192.168.1.106:8000/ResultsProvider">Result Provider</a>
+<li><a href="http://192.168.1.106:8000/hirrrwebportal">Hirrr Web Portal</a>
+</ul>
+
+<li><a href="http://192.168.1.21">Bug Reporter</a>
+<li><a href="http://192.168.1.13:8000/HirrrAdmin">Hirrr Admin Tool</a>
+<li><a href="http://192.168.1.21">Share drive</a>
+<li><a href="http://192.168.1.9">Hirrr Internal Wiki</a>
+<li><a href="http://192.168.1.16:8000/hirrrwebportal/in">Hirrr Web Portal- Anoop Machine</a>
+<li><a href="http://192.168.1.">ActiveMQ global</a>
+<ul>
+<li><a href="http://192.168.1.16:8161">Anoop Machine</a>
+<li><a href="http://192.168.1.17:8161">Christina Machine</a>
+</ul>
+
+<li><a href="http://192.168.1.30">Docker</a>
+<li><a href="http://192.168.1.X">Puppet Server</a>
+</div>
+
+
+</body>
+</html>
+

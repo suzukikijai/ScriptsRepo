@@ -1,0 +1,109 @@
+[sudo] password for sageadmin: Sorry, try again.
+[sudo] password for sageadmin: 
+sudo: 1 incorrect password attempt
+[sudo] password for sageadmin: Sorry, try again.
+[sudo] password for sageadmin: 
+sudo: 1 incorrect password attempt
+./geo.sh.x: line 9: jobtitle.txt: Permission denied
+[sudo] password for sageadmin: Sorry, try again.
+[sudo] password for sageadmin: 
+sudo: 1 incorrect password attempt
+./geo.sh.x: line 9: LocationWithCountry.txt: Permission denied
+[sudo] password for sageadmin: Sorry, try again.
+[sudo] password for sageadmin: 
+sudo: 1 incorrect password attempt
+./geo.sh.x: line 9: pdatewords.txt: Permission denied
+[sudo] password for sageadmin: Sorry, try again.
+[sudo] password for sageadmin: 
+sudo: 1 incorrect password attempt
+./geo.sh.x: line 9: expwords.txt: Permission denied
+[sudo] password for sageadmin: Sorry, try again.
+[sudo] password for sageadmin: 
+sudo: 1 incorrect password attempt
+./geo.sh.x: line 9: badwords.txt: Permission denied
+[sudo] password for sageadmin: Sorry, try again.
+[sudo] password for sageadmin: 
+sudo: 1 incorrect password attempt
+./geo.sh.x: line 9: overviewwords.txt: Permission denied
+[sudo] password for sageadmin: Sorry, try again.
+[sudo] password for sageadmin: 
+sudo: 1 incorrect password attempt
+./geo.sh.x: line 9: jobDurTypeWords.txt: Permission denied
+[sudo] password for sageadmin: Sorry, try again.
+[sudo] password for sageadmin: 
+sudo: 1 incorrect password attempt
+./geo.sh.x: line 9: jobTitleOtherWordsCheck.txt: Permission denied
+[sudo] password for sageadmin: Sorry, try again.
+[sudo] password for sageadmin: 
+sudo: 1 incorrect password attempt
+./geo.sh.x: line 9: no_jobs.txt: Permission denied
+[sudo] password for sageadmin: Sorry, try again.
+[sudo] password for sageadmin: 
+sudo: 1 incorrect password attempt
+./geo.sh.x: line 9: skills.txt: Permission denied
+[sudo] password for sageadmin: Sorry, try again.
+[sudo] password for sageadmin: 
+sudo: 1 incorrect password attempt
+./geo.sh.x: line 9: no_of_pos_forDesc.txt: Permission denied
+[sudo] password for sageadmin: Sorry, try again.
+[sudo] password for sageadmin: 
+sudo: 1 incorrect password attempt
+./geo.sh.x: line 9: no_of_pos_forTitle.txt: Permission denied
+[sudo] password for sageadmin: Sorry, try again.
+[sudo] password for sageadmin: 
+sudo: 1 incorrect password attempt
+./geo.sh.x: line 9: ConjuctivesRmvWords.txt: Permission denied
+[sudo] password for sageadmin: Sorry, try again.
+[sudo] password for sageadmin: 
+sudo: 1 incorrect password attempt
+./geo.sh.x: line 9: CoreWords.txt: Permission denied
+[sudo] password for sageadmin: Sorry, try again.
+[sudo] password for sageadmin: 
+sudo: 1 incorrect password attempt
+./geo.sh.x: line 9: Dept.txt: Permission denied
+[sudo] password for sageadmin: Sorry, try again.
+[sudo] password for sageadmin: 
+sudo: 1 incorrect password attempt
+./geo.sh.x: line 9: FirstWords_ToFindJob.txt: Permission denied
+[sudo] password for sageadmin: Sorry, try again.
+[sudo] password for sageadmin: 
+sudo: 1 incorrect password attempt
+./geo.sh.x: line 9: SecondWords_ToFindJob.txt: Permission denied
+[sudo] password for sageadmin: Sorry, try again.
+[sudo] password for sageadmin: 
+sudo: 1 incorrect password attempt
+./geo.sh.x: line 9: WorngTitleWords.txt: Permission denied
+[sudo] password for sageadmin: Sorry, try again.
+[sudo] password for sageadmin: 
+sudo: 1 incorrect password attempt
+./geo.sh.x: line 9: CareerDeciderWordsFirst.txt: Permission denied
+[sudo] password for sageadmin: Sorry, try again.
+[sudo] password for sageadmin: 
+sudo: 1 incorrect password attempt
+./geo.sh.x: line 9: CareerDeciderWordsSecond.txt: Permission denied
+[sudo] password for sageadmin: Sorry, try again.
+[sudo] password for sageadmin: 
+sudo: 1 incorrect password attempt
+./geo.sh.x: line 9: jobboard.txt: Permission denied
+[sudo] password for sageadmin: Sorry, try again.
+[sudo] password for sageadmin: 
+sudo: 1 incorrect password attempt
+./geo.sh.x: line 9: MailFindingWordsFirst.txt: Permission denied
+[sudo] password for sageadmin: Sorry, try again.
+[sudo] password for sageadmin: 
+sudo: 1 incorrect password attempt
+./geo.sh.x: line 9: MailFindingWordsSecond.txt: Permission denied
+[sudo] password for sageadmin: Sorry, try again.
+[sudo] password for sageadmin: 
+sudo: 1 incorrect password attempt
+./geo.sh.x: line 9: SiteEntryWords.txt: Permission denied
+[sudo] password for sageadmin: Sorry, try again.
+[sudo] password for sageadmin: 
+sudo: 1 incorrect password attempt
+./geo.sh.x: line 15: temp: Permission denied
+[sudo] password for sageadmin: Sorry, try again.
+[sudo] password for sageadmin: 
+sudo: 1 incorrect password attempt
+[sudo] password for sageadmin: Sorry, try again.
+[sudo] password for sageadmin: 
+sudo: 1 incorrect password attempt

@@ -1,0 +1,81 @@
+Main >>>:>
+RENAME TABLE  `results_provider_db.expired_jobs` TO  `results_provider_db.B_expired_jobs`;
+RENAME TABLE  `results_provider_db.wrapped_trash` TO  `results_provider_db.B_wrapped_trash`;
+RENAME TABLE  `results_provider_db.Wrapped` TO  `results_provider_db.B_Wrapped`;
+RENAME TABLE  `results_provider_db.user_scrap_job_category` TO  `results_provider_db.B_user_scrap_job_category`;
+RENAME TABLE  `results_provider_db.user_login_title` TO  `results_provider_db.B_user_login_title`;
+RENAME TABLE  `results_provider_db.user_login` TO  `results_provider_db.B_user_login`;
+RENAME TABLE  `results_provider_db.static_vals` TO  `results_provider_db.B_static_vals`;
+RENAME TABLE  `results_provider_db.scrapper_locations` TO  `results_provider_db.B_scrapper_locations`;
+RENAME TABLE  `results_provider_db.scrap_tool_file_status` TO  `results_provider_db.B_scrap_tool_file_status`;
+RENAME TABLE  `results_provider_db.p_scrapper_run_info` TO  `results_provider_db.B_p_scrapper_run_info`;
+RENAME TABLE  `results_provider_db.p_scrapper_info` TO  `results_provider_db.B_p_scrapper_info`;
+RENAME TABLE  `results_provider_db.p_scrapper` TO  `results_provider_db.B_p_scrapper`;
+RENAME TABLE  `results_provider_db.nonmatched_location` TO  `results_provider_db.B_nonmatched_location`;
+RENAME TABLE  `results_provider_db.no_of_position_title_match_list` TO  `results_provider_db.B_no_of_position_title_match_list`;
+RENAME TABLE  `results_provider_db.no_of_position_desc_match_list` TO  `results_provider_db.B_no_of_position_desc_match_list`;
+RENAME TABLE  `results_provider_db.n_scrapper_run_info` TO  `results_provider_db.B_n_scrapper_run_info`;
+RENAME TABLE  `results_provider_db.location_Country_list` TO  `results_provider_db.B_location_Country_list`;
+RENAME TABLE  `results_provider_db.job_type_match_list` TO  `results_provider_db.B_job_type_match_list`;
+RENAME TABLE  `results_provider_db.hirrradmin_log` TO  `results_provider_db.B_hirrradmin_log`;
+RENAME TABLE  `results_provider_db.dupe` TO  `results_provider_db.B_dupe`;
+RENAME TABLE  `results_provider_db.career_jobs_snatcher` TO  `results_provider_db.B_career_jobs_snatcher`;
+
+
+
+Main >>>:>
+RENAME TABLE  `scrapperdb.expired_jobs` TO  `scrapperdb.C_expired_jobs`;
+RENAME TABLE  `scrapperdb.scrapper_industry` TO  `scrapperdb.C_scrapper_industry`;
+RENAME TABLE  `scrapperdb.receiver_scrapper_log` TO  `scrapperdb.C_receiver_scrapper_log`;
+RENAME TABLE  `scrapperdb.p_scrapper_log` TO  `scrapperdb.C_p_scrapper_log`;
+RENAME TABLE  `scrapperdb.p_scrapper_info` TO  `scrapperdb.C_p_scrapper_info`;
+RENAME TABLE  `scrapperdb.p_scrapper` TO  `scrapperdb.C_p_scrapper`;
+RENAME TABLE  `scrapperdb.p_expired_jobs` TO  `scrapperdb.C_p_expired_jobs`;
+RENAME TABLE  `scrapperdb.nonmatched_location` TO  `scrapperdb.C_nonmatched_location`;
+RENAME TABLE  `scrapperdb.n_single_scrapper` TO  `scrapperdb.C_n_single_scrapper`;
+RENAME TABLE  `scrapperdb.n_scrapper_log` TO  `scrapperdb.C_n_scrapper_log`;
+RENAME TABLE  `scrapperdb.n_scrapper` TO  `scrapperdb.C_n_scrapper`;
+RENAME TABLE  `scrapperdb.group_company` TO  `scrapperdb.C_group_company`;
+RENAME TABLE  `scrapperdb.ATS_Country_Code_Check` TO  `scrapperdb.C_ATS_Country_Code_Check`;
+
+
+
+Test >>>:>
+RENAME TABLE  `results_provider_db.expired_jobs` TO  `results_provider_db.1_expired_jobs`;
+RENAME TABLE  `results_provider_db.career_jobs_snatcher` TO  `results_provider_db.1_career_jobs_snatcher`;
+RENAME TABLE  `results_provider_db.dupe` TO  `results_provider_db.1_dupe`;
+RENAME TABLE  `results_provider_db.group_company` TO  `results_provider_db.1_group_company`;
+RENAME TABLE  `results_provider_db.hirrradmin_log` TO  `results_provider_db.1_hirrradmin_log`;
+RENAME TABLE  `results_provider_db.job_type_match_list` TO  `results_provider_db.1_job_type_match_list`;
+RENAME TABLE  `results_provider_db.location_Country_list` TO  `results_provider_db.1_location_Country_list`;
+RENAME TABLE  `results_provider_db.n_scrapper_run_info` TO  `results_provider_db.1_n_scrapper_run_info`;
+RENAME TABLE  `results_provider_db.no_of_position_desc_match_list` TO  `results_provider_db.1_no_of_position_desc_match_list`;
+RENAME TABLE  `results_provider_db.no_of_position_title_match_list` TO  `results_provider_db.1_no_of_position_title_match_list`;
+RENAME TABLE  `results_provider_db.p_scrapper` TO  `results_provider_db.1_p_scrapper`;
+RENAME TABLE  `results_provider_db.p_scrapper_run_info` TO  `results_provider_db.1_p_scrapper_run_info`;
+RENAME TABLE  `results_provider_db.scrap_tool_file_status` TO  `results_provider_db.1_scrap_tool_file_status`;
+RENAME TABLE  `results_provider_db.scrapper_locations` TO  `results_provider_db.1_scrapper_locations`;
+RENAME TABLE  `results_provider_db.static_vals` TO  `results_provider_db.1_static_vals`;
+RENAME TABLE  `results_provider_db.user_login` TO  `results_provider_db.1_user_login`;
+RENAME TABLE  `results_provider_db.user_login_title` TO  `results_provider_db.1_user_login_title`;
+RENAME TABLE  `results_provider_db.user_scrap_job_category` TO  `results_provider_db.1_user_scrap_job_category`;
+RENAME TABLE  `results_provider_db.Wrapped` TO  `results_provider_db.1_Wrapped`;
+RENAME TABLE  `results_provider_db.wrapped_trash` TO  `results_provider_db.1_wrapped_trash`;
+
+
+Test >>>:>
+RENAME TABLE  `scrapperdb.expired_jobs` TO  `scrapperdb.2_expired_jobs`;
+RENAME TABLE  `scrapperdb.ATS_Country_Code_Check` TO  `scrapperdb.2_ATS_Country_Code_Check`;
+RENAME TABLE  `scrapperdb.group_company` TO  `scrapperdb.2_group_company`;
+RENAME TABLE  `scrapperdb.n_scrapper` TO  `scrapperdb.2_n_scrapper`;
+RENAME TABLE  `scrapperdb.n_scrapper_log` TO  `scrapperdb.2_n_scrapper_log`;
+RENAME TABLE  `scrapperdb.n_single_scrapper` TO  `scrapperdb.2_n_single_scrapper`;
+RENAME TABLE  `scrapperdb.nonmatched_location` TO  `scrapperdb.2_nonmatched_location`;
+RENAME TABLE  `scrapperdb.p_expired_jobs` TO  `scrapperdb.2_p_expired_jobs`;
+RENAME TABLE  `scrapperdb.p_scrapper` TO  `scrapperdb.2_p_scrapper`;
+RENAME TABLE  `scrapperdb.p_scrapper_info` TO  `scrapperdb.2_p_scrapper_info`;
+RENAME TABLE  `scrapperdb.p_scrapper_log` TO  `scrapperdb.2_p_scrapper_log`;
+RENAME TABLE  `scrapperdb.receiver_scrapper_log` TO  `scrapperdb.2_receiver_scrapper_log`;
+RENAME TABLE  `scrapperdb.scrapper_industry` TO  `scrapperdb.2_scrapper_industry`;
+RENAME TABLE  `scrapperdb.user_login` TO  `scrapperdb.2_user_login`;
+

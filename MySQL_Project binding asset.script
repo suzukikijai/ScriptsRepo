@@ -1,0 +1,149 @@
+^([^\s]+)\s+([^\s]+)\s+([^\n]+)
+(\3) \1.\2
+
+
+(\([^\)]*)W([^\)]*\))
+\1 INSERT \2
+
+GRANT SELECT ON scrapperdb.n_scrapper TO 'HirrrAdmin'@'192.168.1.%' identified by 'y9tvr64e35497gaYmsN7zYNFFdKrA';
+GRANT SELECT ON scrapperdb.n_single_scrapper TO 'HirrrAdmin'@'192.168.1.%' identified by 'y9tvr64e35497gaYmsN7zYNFFdKrA';
+GRANT SELECT ON scrapperdb.p_scrapper TO 'HirrrAdmin'@'192.168.1.%' identified by 'y9tvr64e35497gaYmsN7zYNFFdKrA';
+GRANT SELECT, INSERT, UPDATE ON scrapperdb.ATS_Country_Code_Check TO 'HirrrAdmin'@'192.168.1.%' identified by 'y9tvr64e35497gaYmsN7zYNFFdKrA';
+GRANT SELECT, INSERT, UPDATE ON scrapperdb.nonmatched_location TO 'HirrrAdmin'@'192.168.1.%' identified by 'y9tvr64e35497gaYmsN7zYNFFdKrA';
+GRANT SELECT, INSERT, UPDATE ON scrapperdb.p_scrapper_info TO 'HirrrAdmin'@'192.168.1.%' identified by 'y9tvr64e35497gaYmsN7zYNFFdKrA';
+GRANT SELECT, INSERT, UPDATE, DELETE, ON scrapperdb.matching_txts TO 'HirrrAdmin'@'192.168.1.%' identified by 'y9tvr64e35497gaYmsN7zYNFFdKrA';
+GRANT SELECT, UPDATE ON scrapperdb.expired_jobs TO 'HirrrAdmin'@'192.168.1.%' identified by 'y9tvr64e35497gaYmsN7zYNFFdKrA';
+GRANT SELECT, UPDATE ON scrapperdb.p_expired_jobs TO 'HirrrAdmin'@'192.168.1.%' identified by 'y9tvr64e35497gaYmsN7zYNFFdKrA';
+GRANT SELECT ON scrapperdb.n_scrapper TO 'hirrrwebportal'@'192.168.1.%' identified by 'mHWD64bWcZ4fqPb5M4H4EFuD4G4wE';
+GRANT SELECT ON scrapperdb.n_single_scrapper TO 'hirrrwebportal'@'192.168.1.%' identified by 'mHWD64bWcZ4fqPb5M4H4EFuD4G4wE';
+GRANT SELECT ON scrapperdb.p_scrapper TO 'hirrrwebportal'@'192.168.1.%' identified by 'mHWD64bWcZ4fqPb5M4H4EFuD4G4wE';
+GRANT INSERT ON scrapperdb.expired_jobs TO 'NormalScrap'@'192.168.1.%' identified by '8zBUrfR4MSS4TK3tG7zut6DDY6Nnx';
+GRANT INSERT ON scrapperdb.n_scrapper_log TO 'NormalScrap'@'192.168.1.%' identified by '8zBUrfR4MSS4TK3tG7zut6DDY6Nnx';
+GRANT SELECT ON scrapperdb.group_company TO 'NormalScrap'@'192.168.1.%' identified by '8zBUrfR4MSS4TK3tG7zut6DDY6Nnx';
+GRANT SELECT ON scrapperdb.n_scrapper_info TO 'NormalScrap'@'192.168.1.%' identified by '8zBUrfR4MSS4TK3tG7zut6DDY6Nnx';
+GRANT SELECT, DELETE, UPDATE ON scrapperdb.n_scrapper TO 'NormalScrap'@'192.168.1.%' identified by '8zBUrfR4MSS4TK3tG7zut6DDY6Nnx';
+GRANT SELECT, DELETE, UPDATE ON scrapperdb.n_single_scrapper TO 'NormalScrap'@'192.168.1.%' identified by '8zBUrfR4MSS4TK3tG7zut6DDY6Nnx';
+GRANT SELECT, UPDATE ON scrapperdb.nonmatched_location TO 'NormalScrap'@'192.168.1.%' identified by '8zBUrfR4MSS4TK3tG7zut6DDY6Nnx';
+GRANT UPDATE ON scrapperdb.html_history TO 'NormalScrap'@'192.168.1.%' identified by '8zBUrfR4MSS4TK3tG7zut6DDY6Nnx';
+GRANT SELECT, INSERT, UPDATE, DELETE ON scrapperdb.nonmatched_location TO 'PatternScrap'@'192.168.1.%' identified by '4SP8upS6297uMK7ugc3Tcq3j44z6j';
+GRANT SELECT, INSERT, UPDATE, DELETE ON scrapperdb.p_expired_jobs TO 'PatternScrap'@'192.168.1.%' identified by '4SP8upS6297uMK7ugc3Tcq3j44z6j';
+GRANT SELECT, INSERT, UPDATE, DELETE ON scrapperdb.p_scrapper TO 'PatternScrap'@'192.168.1.%' identified by '4SP8upS6297uMK7ugc3Tcq3j44z6j';
+GRANT SELECT, INSERT, UPDATE, DELETE ON scrapperdb.p_scrapper_info TO 'PatternScrap'@'192.168.1.%' identified by '4SP8upS6297uMK7ugc3Tcq3j44z6j';
+GRANT SELECT, INSERT, UPDATE, DELETE ON scrapperdb.p_scrapper_log TO 'PatternScrap'@'192.168.1.%' identified by '4SP8upS6297uMK7ugc3Tcq3j44z6j';
+GRANT INSERT ON scrapperdb.expired_jobs TO 'PerfectScrap'@'192.168.1.%' identified by 'wyp7A23PPYdfEShGzMTw7PN6yt6d3';
+GRANT INSERT ON scrapperdb.n_scrapper_log TO 'PerfectScrap'@'192.168.1.%' identified by 'wyp7A23PPYdfEShGzMTw7PN6yt6d3';
+GRANT SELECT ON scrapperdb.group_company TO 'PerfectScrap'@'192.168.1.%' identified by 'wyp7A23PPYdfEShGzMTw7PN6yt6d3';
+GRANT SELECT ON scrapperdb.n_scrapper_info TO 'PerfectScrap'@'192.168.1.%' identified by 'wyp7A23PPYdfEShGzMTw7PN6yt6d3';
+GRANT SELECT, DELETE, UPDATE ON scrapperdb.n_scrapper TO 'PerfectScrap'@'192.168.1.%' identified by 'wyp7A23PPYdfEShGzMTw7PN6yt6d3';
+GRANT SELECT, DELETE, UPDATE ON scrapperdb.n_single_scrapper TO 'PerfectScrap'@'192.168.1.%' identified by 'wyp7A23PPYdfEShGzMTw7PN6yt6d3';
+GRANT SELECT, UPDATE ON scrapperdb.nonmatched_location TO 'PerfectScrap'@'192.168.1.%' identified by 'wyp7A23PPYdfEShGzMTw7PN6yt6d3';
+GRANT UPDATE ON scrapperdb.html_history TO 'PerfectScrap'@'192.168.1.%' identified by 'wyp7A23PPYdfEShGzMTw7PN6yt6d3';
+GRANT INSERT ON scrapperdb.nonmatched_location TO 'ScrapReceiver'@'192.168.1.%' identified by 'S22JJpR59PGykEas3dEwUzTYWXfxX';
+GRANT INSERT ON scrapperdb.expired_jobs TO 'ScrapReceiver'@'192.168.1.%' identified by 'S22JJpR59PGykEas3dEwUzTYWXfxX';
+GRANT INSERT ON scrapperdb.p_expired_jobs TO 'ScrapReceiver'@'192.168.1.%' identified by 'S22JJpR59PGykEas3dEwUzTYWXfxX';
+GRANT INSERT ON scrapperdb.receiver_scrapper_log TO 'ScrapReceiver'@'192.168.1.%' identified by 'S22JJpR59PGykEas3dEwUzTYWXfxX';
+GRANT INSERT, SELECT, UPDATE ON scrapperdb.group_company TO 'ScrapReceiver'@'192.168.1.%' identified by 'S22JJpR59PGykEas3dEwUzTYWXfxX';
+GRANT SELECT, INSERT, UPDATE, DELETE ON scrapperdb.n_scrapper TO 'ScrapReceiver'@'192.168.1.%' identified by 'S22JJpR59PGykEas3dEwUzTYWXfxX';
+GRANT SELECT, INSERT, UPDATE, DELETE ON scrapperdb.n_single_scrapper TO 'ScrapReceiver'@'192.168.1.%' identified by 'S22JJpR59PGykEas3dEwUzTYWXfxX';
+GRANT SELECT, INSERT, UPDATE, DELETE ON scrapperdb.p_scrapper TO 'ScrapReceiver'@'192.168.1.%' identified by 'S22JJpR59PGykEas3dEwUzTYWXfxX';
+GRANT INSERT ON scrapperdb.expired_jobs TO 'SeleniumPerfectScrap'@'192.168.1.%' identified by '7nV68E6g9ZW7WQF8Am8M7NG2EDg8A';
+GRANT INSERT ON scrapperdb.n_scrapper_log TO 'SeleniumPerfectScrap'@'192.168.1.%' identified by '7nV68E6g9ZW7WQF8Am8M7NG2EDg8A';
+GRANT SELECT ON scrapperdb.group_company TO 'SeleniumPerfectScrap'@'192.168.1.%' identified by '7nV68E6g9ZW7WQF8Am8M7NG2EDg8A';
+GRANT SELECT ON scrapperdb.n_scrapper_info TO 'SeleniumPerfectScrap'@'192.168.1.%' identified by '7nV68E6g9ZW7WQF8Am8M7NG2EDg8A';
+GRANT SELECT, DELETE, UPDATE ON scrapperdb.n_scrapper TO 'SeleniumPerfectScrap'@'192.168.1.%' identified by '7nV68E6g9ZW7WQF8Am8M7NG2EDg8A';
+GRANT SELECT, DELETE, UPDATE ON scrapperdb.n_single_scrapper TO 'SeleniumPerfectScrap'@'192.168.1.%' identified by '7nV68E6g9ZW7WQF8Am8M7NG2EDg8A';
+GRANT SELECT, UPDATE ON scrapperdb.nonmatched_location TO 'SeleniumPerfectScrap'@'192.168.1.%' identified by '7nV68E6g9ZW7WQF8Am8M7NG2EDg8A';
+GRANT UPDATE ON scrapperdb.html_history TO 'SeleniumPerfectScrap'@'192.168.1.%' identified by '7nV68E6g9ZW7WQF8Am8M7NG2EDg8A';
+GRANT INSERT ON results_provider_db.dupe TO 'HirrrAdmin'@'192.168.1.%' identified by 'y9tvr64e35497gaYmsN7zYNFFdKrA';
+GRANT INSERT ON results_provider_db.wrapped_trash TO 'HirrrAdmin'@'192.168.1.%' identified by 'y9tvr64e35497gaYmsN7zYNFFdKrA';
+GRANT SELECT ON results_provider_db.hirrradmin_log TO 'HirrrAdmin'@'192.168.1.%' identified by 'y9tvr64e35497gaYmsN7zYNFFdKrA';
+GRANT SELECT ON results_provider_db.n_scrapper_run_info TO 'HirrrAdmin'@'192.168.1.%' identified by 'y9tvr64e35497gaYmsN7zYNFFdKrA';
+GRANT SELECT ON results_provider_db.user_scrap_job_category TO 'HirrrAdmin'@'192.168.1.%' identified by 'y9tvr64e35497gaYmsN7zYNFFdKrA';
+GRANT SELECT, INSERT ON results_provider_db.user_login_title TO 'HirrrAdmin'@'192.168.1.%' identified by 'y9tvr64e35497gaYmsN7zYNFFdKrA';
+GRANT SELECT, INSERT, UPDATE ON results_provider_db.p_scrapper_run_info TO 'HirrrAdmin'@'192.168.1.%' identified by 'y9tvr64e35497gaYmsN7zYNFFdKrA';
+GRANT SELECT, INSERT, UPDATE, ON results_provider_db.static_vals TO 'HirrrAdmin'@'192.168.1.%' identified by 'y9tvr64e35497gaYmsN7zYNFFdKrA';
+GRANT SELECT, INSERT, UPDATE, DELETE ON results_provider_db.Wrapped TO 'HirrrAdmin'@'192.168.1.%' identified by 'y9tvr64e35497gaYmsN7zYNFFdKrA';
+GRANT SELECT, INSERT, UPDATE, DELETE ON results_provider_db.career_jobs_snatcher TO 'HirrrAdmin'@'192.168.1.%' identified by 'y9tvr64e35497gaYmsN7zYNFFdKrA';
+GRANT SELECT, INSERT, UPDATE, DELETE ON results_provider_db.user_login TO 'HirrrAdmin'@'192.168.1.%' identified by 'y9tvr64e35497gaYmsN7zYNFFdKrA';
+GRANT SELECT ON results_provider_db.job_type_match_list TO 'hirrrscraptool'@'192.168.1.%' identified by '6pMWbGSMuWE5HHayXtBsarE637K4z';
+GRANT SELECT ON results_provider_db.location_Country_list TO 'hirrrscraptool'@'192.168.1.%' identified by '6pMWbGSMuWE5HHayXtBsarE637K4z';
+GRANT SELECT ON results_provider_db.no_of_position_desc_match_list TO 'hirrrscraptool'@'192.168.1.%' identified by '6pMWbGSMuWE5HHayXtBsarE637K4z';
+GRANT SELECT ON results_provider_db.no_of_position_title_match_list TO 'hirrrscraptool'@'192.168.1.%' identified by '6pMWbGSMuWE5HHayXtBsarE637K4z';
+GRANT SELECT, UPDATE ON results_provider_db.Wrapped TO 'hirrrscraptool'@'192.168.1.%' identified by '6pMWbGSMuWE5HHayXtBsarE637K4z';
+GRANT SELECT, INSERT ON results_provider_db.hirrradmin_log TO 'jobsnatcher'@'192.168.1.%' identified by 'aaAeZRD34X4saee4UhZ9w3XW66RQZ';
+GRANT SELECT, INSERT ON results_provider_db.Wrapped TO 'jobsnatcher'@'192.168.1.%' identified by 'aaAeZRD34X4saee4UhZ9w3XW66RQZ';
+GRANT SELECT, INSERT, UPDATE ON results_provider_db.career_jobs_snatcher TO 'jobsnatcher'@'192.168.1.%' identified by 'aaAeZRD34X4saee4UhZ9w3XW66RQZ';
+GRANT INSERT, UPDATE ON results_provider_db.n_scrapper_run_info TO 'NormalScrap'@'192.168.1.%' identified by '8zBUrfR4MSS4TK3tG7zut6DDY6Nnx';
+GRANT UPDATE ON results_provider_db.Wrapped TO 'NormalScrap'@'192.168.1.%' identified by '8zBUrfR4MSS4TK3tG7zut6DDY6Nnx';
+GRANT INSERT ON results_provider_db.p_scrapper_run_info TO 'PatternScrap'@'192.168.1.%' identified by '4SP8upS6297uMK7ugc3Tcq3j44z6j';
+GRANT INSERT, UPDATE ON results_provider_db.n_scrapper_run_info TO 'PerfectScrap'@'192.168.1.%' identified by 'wyp7A23PPYdfEShGzMTw7PN6yt6d3';
+GRANT UPDATE ON results_provider_db.Wrapped TO 'PerfectScrap'@'192.168.1.%' identified by 'wyp7A23PPYdfEShGzMTw7PN6yt6d3';
+GRANT INSERT ON results_provider_db.scrapper_locations TO 'ScrapReceiver'@'192.168.1.%' identified by 'S22JJpR59PGykEas3dEwUzTYWXfxX';
+GRANT SELECT ON results_provider_db.Wrapped TO 'ScrapReceiver'@'192.168.1.%' identified by 'S22JJpR59PGykEas3dEwUzTYWXfxX';
+GRANT INSERT, UPDATE ON results_provider_db.n_scrapper_run_info TO 'SeleniumPerfectScrap'@'192.168.1.%' identified by '7nV68E6g9ZW7WQF8Am8M7NG2EDg8A';
+GRANT UPDATE ON results_provider_db.Wrapped TO 'SeleniumPerfectScrap'@'192.168.1.%' identified by '7nV68E6g9ZW7WQF8Am8M7NG2EDg8A';
+GRANT SELECT, DELETE, INSERT, UPDATE ON scrapperdb.p_scrapper_info TO 'HirrrAdmin'@'localhost' identified by 'y9tvr64e35497gaYmsN7zYNFFdKrA' ;
+ 
+GRANT SELECT ON scrapperdb.group_company TO 'hirrrscraptool'@'localhost' identified by '6pMWbGSMuWE5HHayXtBsarE637K4z' ;
+ 
+GRANT SELECT ON scrapperdb.n_scrapper TO 'hirrrscraptool'@'localhost' identified by '6pMWbGSMuWE5HHayXtBsarE637K4z' ;
+ 
+GRANT SELECT ON scrapperdb.n_single_scrapper TO 'hirrrscraptool'@'localhost' identified by '6pMWbGSMuWE5HHayXtBsarE637K4z' ;
+ 
+GRANT INSERT ON scrapperdb.expired_jobs TO 'NormalScrap'@'localhost' identified by '8zBUrfR4MSS4TK3tG7zut6DDY6Nnx' ;
+ 
+GRANT INSERT ON scrapperdb.n_scrapper_log TO 'NormalScrap'@'localhost' identified by '8zBUrfR4MSS4TK3tG7zut6DDY6Nnx' ;
+ 
+GRANT SELECT ON scrapperdb.group_company TO 'NormalScrap'@'localhost' identified by '8zBUrfR4MSS4TK3tG7zut6DDY6Nnx' ;
+ 
+GRANT SELECT, DELETE, UPDATE ON scrapperdb.n_scrapper TO 'NormalScrap'@'localhost' identified by '8zBUrfR4MSS4TK3tG7zut6DDY6Nnx' ;
+ 
+GRANT SELECT, DELETE, UPDATE ON scrapperdb.n_single_scrapper TO 'NormalScrap'@'localhost' identified by '8zBUrfR4MSS4TK3tG7zut6DDY6Nnx' ;
+ 
+GRANT SELECT, UPDATE ON scrapperdb.nonmatched_location TO 'NormalScrap'@'localhost' identified by '8zBUrfR4MSS4TK3tG7zut6DDY6Nnx' ;
+ 
+GRANT SELECT, INSERT, UPDATE, DELETE ON scrapperdb.nonmatched_location TO 'PatternScrap'@'localhost' identified by '4SP8upS6297uMK7ugc3Tcq3j44z6j' ;
+ 
+GRANT SELECT, INSERT, UPDATE, DELETE ON scrapperdb.p_expired_jobs TO 'PatternScrap'@'localhost' identified by '4SP8upS6297uMK7ugc3Tcq3j44z6j' ;
+ 
+GRANT SELECT, INSERT, UPDATE, DELETE ON scrapperdb.p_scrapper TO 'PatternScrap'@'localhost' identified by '4SP8upS6297uMK7ugc3Tcq3j44z6j' ;
+ 
+GRANT SELECT, INSERT, UPDATE, DELETE ON scrapperdb.p_scrapper_info TO 'PatternScrap'@'localhost' identified by '4SP8upS6297uMK7ugc3Tcq3j44z6j' ;
+ 
+GRANT SELECT, INSERT, UPDATE, DELETE ON scrapperdb.p_scrapper_log TO 'PatternScrap'@'localhost' identified by '4SP8upS6297uMK7ugc3Tcq3j44z6j' ;
+ 
+GRANT INSERT ON scrapperdb.nonmatched_location TO 'ScrapReceiver'@'localhost' identified by 'S22JJpR59PGykEas3dEwUzTYWXfxX' ;
+ 
+GRANT INSERT ON scrapperdb.expired_jobs TO 'ScrapReceiver'@'localhost' identified by 'S22JJpR59PGykEas3dEwUzTYWXfxX' ;
+ 
+GRANT INSERT ON scrapperdb.p_expired_jobs TO 'ScrapReceiver'@'localhost' identified by 'S22JJpR59PGykEas3dEwUzTYWXfxX' ;
+ 
+GRANT INSERT ON scrapperdb.receiver_scrapper_log TO 'ScrapReceiver'@'localhost' identified by 'S22JJpR59PGykEas3dEwUzTYWXfxX' ;
+ 
+GRANT INSERT, SELECT, UPDATE ON scrapperdb.group_company TO 'ScrapReceiver'@'localhost' identified by 'S22JJpR59PGykEas3dEwUzTYWXfxX' ;
+ 
+GRANT SELECT, INSERT, UPDATE, DELETE ON scrapperdb.n_scrapper TO 'ScrapReceiver'@'localhost' identified by 'S22JJpR59PGykEas3dEwUzTYWXfxX' ;
+ 
+GRANT SELECT, INSERT, UPDATE, DELETE ON scrapperdb.n_single_scrapper TO 'ScrapReceiver'@'localhost' identified by 'S22JJpR59PGykEas3dEwUzTYWXfxX' ;
+ 
+GRANT SELECT, INSERT, UPDATE, DELETE ON scrapperdb.p_scrapper TO 'ScrapReceiver'@'localhost' identified by 'S22JJpR59PGykEas3dEwUzTYWXfxX' ;
+ 
+GRANT SELECT ON scrapperdb.group_company TO 'ToolScrap'@'localhost' identified by 'R7VVVyWjUFcH97Gbg4vGNh6MhM2b9' ;
+ 
+GRANT SELECT, UPDATE ON scrapperdb.n_scrapper TO 'ToolScrap'@'localhost' identified by 'R7VVVyWjUFcH97Gbg4vGNh6MhM2b9' ;
+ 
+GRANT SELECT, UPDATE ON scrapperdb.n_single_scrapper TO 'ToolScrap'@'localhost' identified by 'R7VVVyWjUFcH97Gbg4vGNh6MhM2b9' ;
+ 
+GRANT SELECT, UPDATE ON scrapperdb.nonmatched_location TO 'ToolScrap'@'localhost' identified by 'R7VVVyWjUFcH97Gbg4vGNh6MhM2b9' ;
+ 
+GRANT INSERT, UPDATE ON results_provider_db.n_scrapper_run_info TO 'NormalScrap'@'localhost' identified by '8zBUrfR4MSS4TK3tG7zut6DDY6Nnx' ;
+ 
+GRANT UPDATE ON results_provider_db.Wrapped TO 'NormalScrap'@'localhost' identified by '8zBUrfR4MSS4TK3tG7zut6DDY6Nnx' ;
+ 
+GRANT INSERT ON results_provider_db.p_scrapper_run_info TO 'PatternScrap'@'localhost' identified by '4SP8upS6297uMK7ugc3Tcq3j44z6j' ;
+ 
+GRANT INSERT ON results_provider_db.scrapper_locations TO 'ScrapReceiver'@'localhost' identified by 'S22JJpR59PGykEas3dEwUzTYWXfxX' ;
+ 
+GRANT SELECT ON results_provider_db.Wrapped TO 'ScrapReceiver'@'localhost' identified by 'S22JJpR59PGykEas3dEwUzTYWXfxX' ;
+ 
+
